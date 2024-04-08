@@ -1,0 +1,73 @@
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="formulario.css" />
+        <title>Cadastro</title>
+    </head>
+    <body>
+
+        <div id="container">
+          
+        <form id="Cadastro" method="post" action="cadastro.php" >
+                <h1> Cadastro de Clientes</h1>
+        
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" size="50">
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" size="20">
+                <br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" size="8">
+                <br>
+                <label for="datanasc">Data de nascimento:</label>
+                <input type="date" id="datanasc" name="datanasc" >
+                <br>
+                <label for="interesses">Interesses:</label>
+                <br>
+                <input type="checkbox" id="interesse1" name="interesse1" value="musica">
+                <label for="interesse1">M&uacute;sica</label>
+                <br>
+                <input type="checkbox" id="interesse2" name="interesse2" value="esporte">
+                <label for="interesse2">Esportes</label>
+                <br>
+                <input type="checkbox" id="interesse3" name="interesse3" value="gastronia">
+                <label for="interesse2">Gastr&ocirc;nomia</label>
+                <br>
+                <label for="promocao">Receber promo&ccedil;&atilde;es por e-mail:</label>
+                <input type="radio" id="promocao" name="promocao" value="S">
+                <label for="promocao">Sim</label>
+                <input type="radio" id="promocao" name="promocao" value="N">
+                <label for="promocao">N&atilde;o</label>
+                <br>
+                <p>
+                <label for="number">N&uacutemero:</label>
+                <input type="text" id="N&uacutemero" name="N&uacutemero">
+                </p>
+                <p>
+                <label for="card">
+                    <span>Cart&atilde;o para pagamento:</span>
+                  </label>
+                  </p>
+                  <p>
+                  <select id="card" name="usercard">
+                    <option value="visa">Visa</option>
+                    <option value="mc">Mastercard</option>
+                    <option value="amex">American Express</option>
+                    <option value="elo">Elo</option>
+                  </select>
+                </p>
+                <p>
+                <input type="submit" value="Cadastrar">
+                </p>
+                <p class="link">  
+                    Já tem conta?
+                    <a href="#paralogin"> Ir para Login </a>
+                  </p>
+               
+        </form>
+    </div>
+
+    </body>
+</html>

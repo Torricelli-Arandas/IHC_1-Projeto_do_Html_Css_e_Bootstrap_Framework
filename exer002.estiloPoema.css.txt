@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{background-color: rgb(173, 216, 230); margin: 0; padding: 0; 
+  text-align: center;
+}
+
+h1{color: rgb(54,54,54); letter-spacing: 0.1em; 
+}
+p{color: rgb(54,54,54); text-align: left; 
+    
+}
+h3{color: rgb(28,28,28);
+}
+
+ol {
+    background: 28,28,28;
+    padding: 10px;
+  }
+  
+  ul {
+    background: 28,28,28;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: 28,28,28;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    background: 28,28,28;
+    margin: 10px;
+  }
+
+  #esquerda{float: center; font-size: 1em; margin: 20px
+  } 
+</style>
+</head>
+<body>
+<html>
+     <head>
+          <title>Cadastro</title>
+
+          <!--define a viewport -->
+     	  <meta name="viewport" content="width=device-windth, initial-scale=1.0" >
+	  <meta charset="utf-8">
+
+     </head>
+     </body>
+
+<h1>Pero Vaz de Caminha</h1>
+<hr>    
+    <p>A descoberta</p>
+    <p>Seguimos nosso caminho por este mar de longo</p>	
+    <p>Até a oitava da Páscoa</p>
+    <p>Topamos aves</p>
+    <p>E houvemos vista de terra</p>
+<br>
+    <p>Os selvagens</p>
+    <p>Mostraram-lhes uma galinha</p>
+    <p>Quase haviam medo dela</p>
+    <p>E não queriam por a mão</p>
+    <p>E depois a tomaram como espantados</p>
+<br>
+    <p>Primeiro chá</p>
+    <p>Depois de dançarem</p>
+    <p>Diogo Dias</p>
+    <p>Fez o salto real</p>
+<br>
+    <p>As meninas da gare</p>
+    <p>Eram três ou quatro moças bem moças e bem gentis</p>
+    <p>Com cabelos mui pretos pelas espáduas</p>
+    <p>E suas vergonhas tão altas e tão saradinhas</p>
+    <p>Que de nós as muito bem olharmos</p>
+    <p>Não tínhamos nenhuma vergonha</p>
+<hr>
+    <h2>Poemas de Oswald de Andrade – Grande nome do modernismo literário</h2>
+<hr>
+    <h3>O poeta e romancista é considerado um dos mais importantes nomes da literatura brasileira.</h3>
+		  <input type="submit">
+	     	 
+           </form>
+      </body>
+</html>      
